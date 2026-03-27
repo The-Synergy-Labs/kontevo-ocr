@@ -22,7 +22,7 @@ Model weights are baked into the image at build time for fast cold starts.
 
 GLM-OCR supports two prompt types:
 
-### Document parsing
+### Document parsing 
 
 Extract raw content from documents using these prompts:
 
