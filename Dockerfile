@@ -23,6 +23,7 @@ ENV SPECULATIVE_CONFIG='{"method":"mtp","num_speculative_tokens":1}'
 ENV ENFORCE_EAGER=0
 ENV MAX_IMAGE_SIDE=2000
 ENV USE_GLMOCR_SDK=1
+ENV GLMOCR_MODE=selfhosted
 
 # Force glm-ocr SDK to use local vLLM instead of MaaS.
 RUN mkdir -p /root/.config/glm-ocr \
